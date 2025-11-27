@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS `Paket_Langganan` (
 CREATE TABLE IF NOT EXISTS `Kartu_Kredit` (
   `nomor_kartu` VARCHAR(19) NOT NULL,
   `jenis` VARCHAR(50) NOT NULL,               -- Penyesuaian dengan revisi tidak boleh NULL
-  `empat_digit_nomor` VARCHAR(4) NOT NULL,    -- Penyesuaian dengan revisi tidak boleh NULL
+  `empat_digit_nomor` CHAR(4) NOT NULL,    -- Penyesuaian dengan revisi tidak boleh NULL
   `tanggal_kadaluarsa` DATE NOT NULL,         -- Penyesuaian dengan revisi tidak boleh NULL
   PRIMARY KEY (`nomor_kartu`)
 );
