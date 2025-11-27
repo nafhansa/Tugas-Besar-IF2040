@@ -2508,6 +2508,178 @@ INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`,
 INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-30', 120000, 'Berhasil', 'user149@mail.com');
 INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-31', 186000, 'Berhasil', 'user150@mail.com');
 
+-- ============================================================
+-- DATA RATING
+-- ============================================================
+-- Batch 1: Oppenheimer (User 1-15)
+INSERT IGNORE INTO `Rating` VALUES ('user1@mail.com', 'Profil Utama', 'Oppenheimer', 5, 'Masterpiece, Nolan jenius!');
+INSERT IGNORE INTO `Rating` VALUES ('user2@mail.com', 'Profil Utama', 'Oppenheimer', 5, 'Visualnya gila banget.');
+INSERT IGNORE INTO `Rating` VALUES ('user3@mail.com', 'Profil Utama', 'Oppenheimer', 4, 'Agak membingungkan tapi bagus.');
+INSERT IGNORE INTO `Rating` VALUES ('user4@mail.com', 'Profil Utama', 'Oppenheimer', 5, 'Acting Cillian Murphy juara.');
+INSERT IGNORE INTO `Rating` VALUES ('user5@mail.com', 'Profil Utama', 'Oppenheimer', 3, 'Terlalu banyak dialog.');
+INSERT IGNORE INTO `Rating` VALUES ('user6@mail.com', 'Profil Utama', 'Oppenheimer', 5, 'Sound effect ledakannya nyata banget.');
+INSERT IGNORE INTO `Rating` VALUES ('user7@mail.com', 'Profil Utama', 'Oppenheimer', 4, 'Durasi terlalu panjang.');
+INSERT IGNORE INTO `Rating` VALUES ('user8@mail.com', 'Profil Utama', 'Oppenheimer', 5, 'Film biografi terbaik tahun ini.');
+INSERT IGNORE INTO `Rating` VALUES ('user9@mail.com', 'Profil Utama', 'Oppenheimer', 4, 'Sangat intens.');
+INSERT IGNORE INTO `Rating` VALUES ('user10@mail.com', 'Profil Utama', 'Oppenheimer', 5, 'Wajib nonton di IMAX.');
+INSERT IGNORE INTO `Rating` VALUES ('user11@mail.com', 'Profil Utama', 'Oppenheimer', 5, 'Cerita sejarah yang dikemas epik.');
+INSERT IGNORE INTO `Rating` VALUES ('user12@mail.com', 'Profil Utama', 'Oppenheimer', 4, 'RDJ mainnya bagus banget.');
+INSERT IGNORE INTO `Rating` VALUES ('user13@mail.com', 'Profil Utama', 'Oppenheimer', 3, 'Bikin ngantuk di tengah.');
+INSERT IGNORE INTO `Rating` VALUES ('user14@mail.com', 'Profil Utama', 'Oppenheimer', 5, 'Endingnya merinding.');
+INSERT IGNORE INTO `Rating` VALUES ('user15@mail.com', 'Profil Utama', 'Oppenheimer', 4, 'Sinematografi kelas atas.');
+
+-- Batch 2: Barbie (User 16-30)
+INSERT IGNORE INTO `Rating` VALUES ('user16@mail.com', 'Profil Utama', 'Barbie', 4, 'Sangat menghibur dan lucu.');
+INSERT IGNORE INTO `Rating` VALUES ('user17@mail.com', 'Profil Utama', 'Barbie', 5, 'Ryan Gosling mencuri perhatian.');
+INSERT IGNORE INTO `Rating` VALUES ('user18@mail.com', 'Profil Utama', 'Barbie', 3, 'Ceritanya agak klise.');
+INSERT IGNORE INTO `Rating` VALUES ('user19@mail.com', 'Profil Utama', 'Barbie', 4, 'Set desainnya warna-warni banget.');
+INSERT IGNORE INTO `Rating` VALUES ('user20@mail.com', 'Profil Utama', 'Barbie', 5, 'Pesan moralnya kena banget.');
+INSERT IGNORE INTO `Rating` VALUES ('user21@mail.com', 'Profil Utama', 'Barbie', 2, 'Bukan selera saya.');
+INSERT IGNORE INTO `Rating` VALUES ('user22@mail.com', 'Profil Utama', 'Barbie', 4, 'Margot Robbie pas banget jadi Barbie.');
+INSERT IGNORE INTO `Rating` VALUES ('user23@mail.com', 'Profil Utama', 'Barbie', 5, 'Soundtracknya enak didengar.');
+INSERT IGNORE INTO `Rating` VALUES ('user24@mail.com', 'Profil Utama', 'Barbie', 4, 'Lebih dalam dari yang dikira.');
+INSERT IGNORE INTO `Rating` VALUES ('user25@mail.com', 'Profil Utama', 'Barbie', 3, 'Endingnya agak aneh.');
+INSERT IGNORE INTO `Rating` VALUES ('user26@mail.com', 'Profil Utama', 'Barbie', 5, 'I am Kenough!');
+INSERT IGNORE INTO `Rating` VALUES ('user27@mail.com', 'Profil Utama', 'Barbie', 4, 'Komedi satir yang cerdas.');
+INSERT IGNORE INTO `Rating` VALUES ('user28@mail.com', 'Profil Utama', 'Barbie', 5, 'Kostumnya keren abis.');
+INSERT IGNORE INTO `Rating` VALUES ('user29@mail.com', 'Profil Utama', 'Barbie', 4, 'Cocok ditonton bareng teman.');
+INSERT IGNORE INTO `Rating` VALUES ('user30@mail.com', 'Profil Utama', 'Barbie', 3, 'Hype doang yang gede.');
+
+-- Batch 3: Dune: Part Two (User 31-45)
+INSERT IGNORE INTO `Rating` VALUES ('user31@mail.com', 'Profil Utama', 'Dune: Part Two', 5, 'Sci-fi terbaik dekade ini.');
+INSERT IGNORE INTO `Rating` VALUES ('user32@mail.com', 'Profil Utama', 'Dune: Part Two', 5, 'Visualnya memanjakan mata.');
+INSERT IGNORE INTO `Rating` VALUES ('user33@mail.com', 'Profil Utama', 'Dune: Part Two', 4, 'Lebih seru dari part 1.');
+INSERT IGNORE INTO `Rating` VALUES ('user34@mail.com', 'Profil Utama', 'Dune: Part Two', 5, 'Austin Butler ngeri banget.');
+INSERT IGNORE INTO `Rating` VALUES ('user35@mail.com', 'Profil Utama', 'Dune: Part Two', 5, 'Skala filmnya sangat besar.');
+INSERT IGNORE INTO `Rating` VALUES ('user36@mail.com', 'Profil Utama', 'Dune: Part Two', 4, 'Musik Hans Zimmer tidak pernah gagal.');
+INSERT IGNORE INTO `Rating` VALUES ('user37@mail.com', 'Profil Utama', 'Dune: Part Two', 3, 'Temponya agak lambat.');
+INSERT IGNORE INTO `Rating` VALUES ('user38@mail.com', 'Profil Utama', 'Dune: Part Two', 5, 'Lisan al Gaib!');
+INSERT IGNORE INTO `Rating` VALUES ('user39@mail.com', 'Profil Utama', 'Dune: Part Two', 4, 'Zendaya aktingnya bagus.');
+INSERT IGNORE INTO `Rating` VALUES ('user40@mail.com', 'Profil Utama', 'Dune: Part Two', 5, 'Adegan perang cacing pasir epik.');
+INSERT IGNORE INTO `Rating` VALUES ('user41@mail.com', 'Profil Utama', 'Dune: Part Two', 4, 'Plot politiknya menarik.');
+INSERT IGNORE INTO `Rating` VALUES ('user42@mail.com', 'Profil Utama', 'Dune: Part Two', 5, 'Wajib nonton di layar lebar.');
+INSERT IGNORE INTO `Rating` VALUES ('user43@mail.com', 'Profil Utama', 'Dune: Part Two', 3, 'Susah dimengerti kalau belum baca buku.');
+INSERT IGNORE INTO `Rating` VALUES ('user44@mail.com', 'Profil Utama', 'Dune: Part Two', 5, 'Sinematografi level dewa.');
+INSERT IGNORE INTO `Rating` VALUES ('user45@mail.com', 'Profil Utama', 'Dune: Part Two', 4, 'Ending gantung, butuh part 3.');
+
+-- Batch 4: The Batman (User 46-60)
+INSERT IGNORE INTO `Rating` VALUES ('user46@mail.com', 'Profil Utama', 'The Batman', 5, 'Batman versi detektif terbaik.');
+INSERT IGNORE INTO `Rating` VALUES ('user47@mail.com', 'Profil Utama', 'The Batman', 4, 'Nuansa Gotham sangat kelam.');
+INSERT IGNORE INTO `Rating` VALUES ('user48@mail.com', 'Profil Utama', 'The Batman', 5, 'Robert Pattinson membuktikan diri.');
+INSERT IGNORE INTO `Rating` VALUES ('user49@mail.com', 'Profil Utama', 'The Batman', 4, 'Musiknya bikin tegang.');
+INSERT IGNORE INTO `Rating` VALUES ('user50@mail.com', 'Profil Utama', 'The Batman', 3, 'Terlalu gelap gambarnya.');
+INSERT IGNORE INTO `Rating` VALUES ('user51@mail.com', 'Profil Utama', 'The Batman', 5, 'Villain Riddler sangat creepy.');
+INSERT IGNORE INTO `Rating` VALUES ('user52@mail.com', 'Profil Utama', 'The Batman', 4, 'Durasi 3 jam terasa cepat.');
+INSERT IGNORE INTO `Rating` VALUES ('user53@mail.com', 'Profil Utama', 'The Batman', 5, 'Adegan kejar-kejaran mobil keren.');
+INSERT IGNORE INTO `Rating` VALUES ('user54@mail.com', 'Profil Utama', 'The Batman', 4, 'Chemistry Catwoman dan Batman dapet.');
+INSERT IGNORE INTO `Rating` VALUES ('user55@mail.com', 'Profil Utama', 'The Batman', 3, 'Kurang aksi, kebanyakan mikir.');
+INSERT IGNORE INTO `Rating` VALUES ('user56@mail.com', 'Profil Utama', 'The Batman', 5, 'Awal yang bagus untuk trilogi baru.');
+INSERT IGNORE INTO `Rating` VALUES ('user57@mail.com', 'Profil Utama', 'The Batman', 4, 'Realistis dan gritty.');
+INSERT IGNORE INTO `Rating` VALUES ('user58@mail.com', 'Profil Utama', 'The Batman', 5, 'Suka banget sama visualnya.');
+INSERT IGNORE INTO `Rating` VALUES ('user59@mail.com', 'Profil Utama', 'The Batman', 4, 'Plot twistnya lumayan.');
+INSERT IGNORE INTO `Rating` VALUES ('user60@mail.com', 'Profil Utama', 'The Batman', 3, 'Agak bosan di pertengahan.');
+
+-- Batch 5: Top Gun: Maverick (User 61-75)
+INSERT IGNORE INTO `Rating` VALUES ('user61@mail.com', 'Profil Utama', 'Top Gun: Maverick', 5, 'Aksi pesawat tempur terbaik!');
+INSERT IGNORE INTO `Rating` VALUES ('user62@mail.com', 'Profil Utama', 'Top Gun: Maverick', 5, 'Tom Cruise gak ada obat.');
+INSERT IGNORE INTO `Rating` VALUES ('user63@mail.com', 'Profil Utama', 'Top Gun: Maverick', 4, 'Nostalgia yang pas.');
+INSERT IGNORE INTO `Rating` VALUES ('user64@mail.com', 'Profil Utama', 'Top Gun: Maverick', 5, 'Sound effect jetnya menggelegar.');
+INSERT IGNORE INTO `Rating` VALUES ('user65@mail.com', 'Profil Utama', 'Top Gun: Maverick', 4, 'Cerita sederhana tapi eksekusi mantap.');
+INSERT IGNORE INTO `Rating` VALUES ('user66@mail.com', 'Profil Utama', 'Top Gun: Maverick', 5, 'Tegang dari awal sampai akhir.');
+INSERT IGNORE INTO `Rating` VALUES ('user67@mail.com', 'Profil Utama', 'Top Gun: Maverick', 3, 'Plotnya mudah ditebak.');
+INSERT IGNORE INTO `Rating` VALUES ('user68@mail.com', 'Profil Utama', 'Top Gun: Maverick', 5, 'Pengalaman bioskop yang luar biasa.');
+INSERT IGNORE INTO `Rating` VALUES ('user69@mail.com', 'Profil Utama', 'Top Gun: Maverick', 4, 'Emosional di bagian Iceman.');
+INSERT IGNORE INTO `Rating` VALUES ('user70@mail.com', 'Profil Utama', 'Top Gun: Maverick', 5, 'Gak nyangka bakal sebagus ini.');
+INSERT IGNORE INTO `Rating` VALUES ('user71@mail.com', 'Profil Utama', 'Top Gun: Maverick', 4, 'Dogfight-nya realistis.');
+INSERT IGNORE INTO `Rating` VALUES ('user72@mail.com', 'Profil Utama', 'Top Gun: Maverick', 5, 'Blockbuster musim panas sejati.');
+INSERT IGNORE INTO `Rating` VALUES ('user73@mail.com', 'Profil Utama', 'Top Gun: Maverick', 3, 'Karakter pendukung kurang dalam.');
+INSERT IGNORE INTO `Rating` VALUES ('user74@mail.com', 'Profil Utama', 'Top Gun: Maverick', 5, 'Adrenalin rush!');
+INSERT IGNORE INTO `Rating` VALUES ('user75@mail.com', 'Profil Utama', 'Top Gun: Maverick', 4, 'Ending yang memuaskan.');
+
+-- Batch 6: Breaking Bad (User 76-90)
+INSERT IGNORE INTO `Rating` VALUES ('user76@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Serial TV terbaik sepanjang masa.');
+INSERT IGNORE INTO `Rating` VALUES ('user77@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Perkembangan karakter Walter White gila.');
+INSERT IGNORE INTO `Rating` VALUES ('user78@mail.com', 'Profil Utama', 'Breaking Bad', 4, 'Season awal agak lambat.');
+INSERT IGNORE INTO `Rating` VALUES ('user79@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Jesse Pinkman sangat kasihan.');
+INSERT IGNORE INTO `Rating` VALUES ('user80@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Penulisan naskah yang jenius.');
+INSERT IGNORE INTO `Rating` VALUES ('user81@mail.com', 'Profil Utama', 'Breaking Bad', 4, 'Sangat menegangkan.');
+INSERT IGNORE INTO `Rating` VALUES ('user82@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Ozymandias adalah episode terbaik.');
+INSERT IGNORE INTO `Rating` VALUES ('user83@mail.com', 'Profil Utama', 'Breaking Bad', 3, 'Terlalu dark buat saya.');
+INSERT IGNORE INTO `Rating` VALUES ('user84@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Bryan Cranston aktingnya top.');
+INSERT IGNORE INTO `Rating` VALUES ('user85@mail.com', 'Profil Utama', 'Breaking Bad', 4, 'Gus Fring villain yang karismatik.');
+INSERT IGNORE INTO `Rating` VALUES ('user86@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Ending yang sempurna.');
+INSERT IGNORE INTO `Rating` VALUES ('user87@mail.com', 'Profil Utama', 'Breaking Bad', 4, 'Visual Gurun New Mexico ikonik.');
+INSERT IGNORE INTO `Rating` VALUES ('user88@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Science Bitch!');
+INSERT IGNORE INTO `Rating` VALUES ('user89@mail.com', 'Profil Utama', 'Breaking Bad', 4, 'Banyak momen shocking.');
+INSERT IGNORE INTO `Rating` VALUES ('user90@mail.com', 'Profil Utama', 'Breaking Bad', 5, 'Masterpiece pertelevisian.');
+
+-- Batch 7: Stranger Things (User 91-105)
+INSERT IGNORE INTO `Rating` VALUES ('user91@mail.com', 'Profil Utama', 'Stranger Things', 4, 'Nostalgia 80an yang kental.');
+INSERT IGNORE INTO `Rating` VALUES ('user92@mail.com', 'Profil Utama', 'Stranger Things', 5, 'Season 4 sangat menyeramkan.');
+INSERT IGNORE INTO `Rating` VALUES ('user93@mail.com', 'Profil Utama', 'Stranger Things', 3, 'Ceritanya mulai berulang.');
+INSERT IGNORE INTO `Rating` VALUES ('user94@mail.com', 'Profil Utama', 'Stranger Things', 4, 'Anak-anaknya aktingnya jago.');
+INSERT IGNORE INTO `Rating` VALUES ('user95@mail.com', 'Profil Utama', 'Stranger Things', 5, 'Vecna musuh yang keren.');
+INSERT IGNORE INTO `Rating` VALUES ('user96@mail.com', 'Profil Utama', 'Stranger Things', 4, 'Efek visualnya bagus.');
+INSERT IGNORE INTO `Rating` VALUES ('user97@mail.com', 'Profil Utama', 'Stranger Things', 5, 'Suka banget sama Eleven.');
+INSERT IGNORE INTO `Rating` VALUES ('user98@mail.com', 'Profil Utama', 'Stranger Things', 4, 'Soundtracknya enak-enak.');
+INSERT IGNORE INTO `Rating` VALUES ('user99@mail.com', 'Profil Utama', 'Stranger Things', 3, 'Durasi per episode kepanjangan.');
+INSERT IGNORE INTO `Rating` VALUES ('user100@mail.com', 'Profil Utama', 'Stranger Things', 5, 'Running Up That Hill!');
+INSERT IGNORE INTO `Rating` VALUES ('user101@mail.com', 'Profil Utama', 'Stranger Things', 4, 'Hopper karakter favorit saya.');
+INSERT IGNORE INTO `Rating` VALUES ('user102@mail.com', 'Profil Utama', 'Stranger Things', 5, 'Gabungan horor dan sci-fi yang pas.');
+INSERT IGNORE INTO `Rating` VALUES ('user103@mail.com', 'Profil Utama', 'Stranger Things', 3, 'Kebanyakan karakter baru.');
+INSERT IGNORE INTO `Rating` VALUES ('user104@mail.com', 'Profil Utama', 'Stranger Things', 4, 'Seru buat binge watching.');
+INSERT IGNORE INTO `Rating` VALUES ('user105@mail.com', 'Profil Utama', 'Stranger Things', 5, 'Gak sabar season terakhir.');
+
+-- Batch 8: Interstellar (User 106-120)
+INSERT IGNORE INTO `Rating` VALUES ('user106@mail.com', 'Profil Utama', 'Interstellar', 5, 'Film luar angkasa terbaik.');
+INSERT IGNORE INTO `Rating` VALUES ('user107@mail.com', 'Profil Utama', 'Interstellar', 5, 'Endingnya bikin nangis.');
+INSERT IGNORE INTO `Rating` VALUES ('user108@mail.com', 'Profil Utama', 'Interstellar', 4, 'Teori fisikanya berat.');
+INSERT IGNORE INTO `Rating` VALUES ('user109@mail.com', 'Profil Utama', 'Interstellar', 5, 'Musik Hans Zimmer magis.');
+INSERT IGNORE INTO `Rating` VALUES ('user110@mail.com', 'Profil Utama', 'Interstellar', 3, 'Suaranya kadang terlalu kencang.');
+INSERT IGNORE INTO `Rating` VALUES ('user111@mail.com', 'Profil Utama', 'Interstellar', 5, 'Visual black hole-nya indah.');
+INSERT IGNORE INTO `Rating` VALUES ('user112@mail.com', 'Profil Utama', 'Interstellar', 4, 'Hubungan ayah dan anak yang menyentuh.');
+INSERT IGNORE INTO `Rating` VALUES ('user113@mail.com', 'Profil Utama', 'Interstellar', 5, 'Adegan docking sangat intens.');
+INSERT IGNORE INTO `Rating` VALUES ('user114@mail.com', 'Profil Utama', 'Interstellar', 4, 'McConaughey aktingnya totalitas.');
+INSERT IGNORE INTO `Rating` VALUES ('user115@mail.com', 'Profil Utama', 'Interstellar', 5, 'Mind blowing banget.');
+INSERT IGNORE INTO `Rating` VALUES ('user116@mail.com', 'Profil Utama', 'Interstellar', 4, 'Perlu nonton dua kali biar paham.');
+INSERT IGNORE INTO `Rating` VALUES ('user117@mail.com', 'Profil Utama', 'Interstellar', 5, 'Sci-fi yang emosional.');
+INSERT IGNORE INTO `Rating` VALUES ('user118@mail.com', 'Profil Utama', 'Interstellar', 3, 'Agak lambat di awal.');
+INSERT IGNORE INTO `Rating` VALUES ('user119@mail.com', 'Profil Utama', 'Interstellar', 5, 'Murph!!!');
+INSERT IGNORE INTO `Rating` VALUES ('user120@mail.com', 'Profil Utama', 'Interstellar', 4, 'Sangat ambisius.');
+
+-- Batch 9: Parasite (User 121-135)
+INSERT IGNORE INTO `Rating` VALUES ('user121@mail.com', 'Profil Utama', 'Parasite', 5, 'Film Asia terbaik.');
+INSERT IGNORE INTO `Rating` VALUES ('user122@mail.com', 'Profil Utama', 'Parasite', 5, 'Plot twist di tengah bikin kaget.');
+INSERT IGNORE INTO `Rating` VALUES ('user123@mail.com', 'Profil Utama', 'Parasite', 4, 'Kritik sosial yang tajam.');
+INSERT IGNORE INTO `Rating` VALUES ('user124@mail.com', 'Profil Utama', 'Parasite', 5, 'Sangat menegangkan dan lucu.');
+INSERT IGNORE INTO `Rating` VALUES ('user125@mail.com', 'Profil Utama', 'Parasite', 4, 'Set rumahnya keren.');
+INSERT IGNORE INTO `Rating` VALUES ('user126@mail.com', 'Profil Utama', 'Parasite', 5, 'Layak dapat Oscar.');
+INSERT IGNORE INTO `Rating` VALUES ('user127@mail.com', 'Profil Utama', 'Parasite', 3, 'Agak disturbing endingnya.');
+INSERT IGNORE INTO `Rating` VALUES ('user128@mail.com', 'Profil Utama', 'Parasite', 5, 'Sutradara Bong Joon Ho jenius.');
+INSERT IGNORE INTO `Rating` VALUES ('user129@mail.com', 'Profil Utama', 'Parasite', 4, 'Akting para pemain natural.');
+INSERT IGNORE INTO `Rating` VALUES ('user130@mail.com', 'Profil Utama', 'Parasite', 5, 'Metafora tangga dan bau sangat kuat.');
+INSERT IGNORE INTO `Rating` VALUES ('user131@mail.com', 'Profil Utama', 'Parasite', 4, 'Sinematografinya rapi.');
+INSERT IGNORE INTO `Rating` VALUES ('user132@mail.com', 'Profil Utama', 'Parasite', 5, 'Thriller komedi yang gelap.');
+INSERT IGNORE INTO `Rating` VALUES ('user133@mail.com', 'Profil Utama', 'Parasite', 4, 'Sangat relatable.');
+INSERT IGNORE INTO `Rating` VALUES ('user134@mail.com', 'Profil Utama', 'Parasite', 5, 'Jessica Illingois Chicago.');
+INSERT IGNORE INTO `Rating` VALUES ('user135@mail.com', 'Profil Utama', 'Parasite', 3, 'Terlalu sadis di akhir.');
+
+-- Batch 10: Inception (User 136-150)
+INSERT IGNORE INTO `Rating` VALUES ('user136@mail.com', 'Profil Utama', 'Inception', 5, 'Konsep mimpi dalam mimpi keren.');
+INSERT IGNORE INTO `Rating` VALUES ('user137@mail.com', 'Profil Utama', 'Inception', 5, 'Actionnya seru banget.');
+INSERT IGNORE INTO `Rating` VALUES ('user138@mail.com', 'Profil Utama', 'Inception', 4, 'Harus fokus nontonnya.');
+INSERT IGNORE INTO `Rating` VALUES ('user139@mail.com', 'Profil Utama', 'Inception', 5, 'Efek visual kota terbalik ikonik.');
+INSERT IGNORE INTO `Rating` VALUES ('user140@mail.com', 'Profil Utama', 'Inception', 4, 'Endingnya bikin penasaran.');
+INSERT IGNORE INTO `Rating` VALUES ('user141@mail.com', 'Profil Utama', 'Inception', 5, 'Hans Zimmer musiknya dahsyat.');
+INSERT IGNORE INTO `Rating` VALUES ('user142@mail.com', 'Profil Utama', 'Inception', 4, 'Leonardo DiCaprio main bagus.');
+INSERT IGNORE INTO `Rating` VALUES ('user143@mail.com', 'Profil Utama', 'Inception', 5, 'Sangat orisinal.');
+INSERT IGNORE INTO `Rating` VALUES ('user144@mail.com', 'Profil Utama', 'Inception', 3, 'Pusing mikirin plotnya.');
+INSERT IGNORE INTO `Rating` VALUES ('user145@mail.com', 'Profil Utama', 'Inception', 5, 'Film action pintar.');
+INSERT IGNORE INTO `Rating` VALUES ('user146@mail.com', 'Profil Utama', 'Inception', 4, 'Tom Hardy karismatik.');
+INSERT IGNORE INTO `Rating` VALUES ('user147@mail.com', 'Profil Utama', 'Inception', 5, 'Adegan koridor tanpa gravitasi keren.');
+INSERT IGNORE INTO `Rating` VALUES ('user148@mail.com', 'Profil Utama', 'Inception', 4, 'Tempo filmnya cepat.');
+INSERT IGNORE INTO `Rating` VALUES ('user149@mail.com', 'Profil Utama', 'Inception', 5, 'Salah satu film terbaik Nolan.');
+INSERT IGNORE INTO `Rating` VALUES ('user150@mail.com', 'Profil Utama', 'Inception', 4, 'Gasingnya berhenti gak ya?');
 
 COMMIT;
 SET FOREIGN_KEY_CHECKS=1;
