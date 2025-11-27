@@ -793,6 +793,15 @@ INSERT IGNORE INTO `Serial_TV` VALUES ('Breaking Bad', 5);
 INSERT IGNORE INTO `Konten` VALUES ('Stranger Things', 'Misteri supranatural di Hawkins.', 2016, 'TV-14', 'Duffer Brothers');
 INSERT IGNORE INTO `Serial_TV` VALUES ('Stranger Things', 4);
 
+INSERT IGNORE INTO `Konten` (`judul`, `sinopsis`, `tahun_rilis`, `rating_usia`, `sutradara`) VALUES ('Interstellar', 'Tim penjelajah melintasi lubang cacing di luar angkasa.', 2014, 'PG-13', 'Christopher Nolan');
+INSERT IGNORE INTO `Film` (`judul`, `durasi`, `sutradara`) VALUES ('Interstellar', 169, 'Christopher Nolan');
+
+INSERT IGNORE INTO `Konten` (`judul`, `sinopsis`, `tahun_rilis`, `rating_usia`, `sutradara`) VALUES ('Inception', 'Pencuri yang mencuri rahasia perusahaan melalui mimpi.', 2010, 'PG-13', 'Christopher Nolan');
+INSERT IGNORE INTO `Film` (`judul`, `durasi`, `sutradara`) VALUES ('Inception', 148, 'Christopher Nolan');
+
+INSERT IGNORE INTO `Konten` (`judul`, `sinopsis`, `tahun_rilis`, `rating_usia`, `sutradara`) VALUES ('Parasite', 'Diskriminasi keserakahan dan kelas mengancam hubungan simbiosis.', 2019, 'R', 'Bong Joon Ho');
+INSERT IGNORE INTO `Film` (`judul`, `durasi`, `sutradara`) VALUES ('Parasite', 132, 'Bong Joon Ho');
+
 -- ============================================================
 -- KONTEN & FILM BARU (+20 DATA)
 -- ============================================================
@@ -1906,6 +1915,599 @@ INSERT IGNORE INTO `Menonton` VALUES ('user147@mail.com', 'Profil Utama', 'Avata
 INSERT IGNORE INTO `Menonton` VALUES ('user148@mail.com', 'Profil Utama', 'Guardians of the Galaxy Vol. 3', NOW(), 90);
 INSERT IGNORE INTO `Menonton` VALUES ('user149@mail.com', 'Profil Utama', 'Black Panther: Wakanda Forever', NOW(), 60);
 INSERT IGNORE INTO `Menonton` VALUES ('user150@mail.com', 'Profil Utama', 'Everything Everywhere All At Once', NOW(), 10);
+
+-- ============================================================
+-- SUBTITLE
+-- ============================================================
+-- Oppenheimer
+INSERT IGNORE INTO `Subtitle` VALUES ('Oppenheimer', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Oppenheimer', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Oppenheimer', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Oppenheimer', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Oppenheimer', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Oppenheimer', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Oppenheimer', 'Korean');
+
+-- Barbie
+INSERT IGNORE INTO `Subtitle` VALUES ('Barbie', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Barbie', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Barbie', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Barbie', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Barbie', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Barbie', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Barbie', 'Korean');
+
+-- Dune: Part Two
+INSERT IGNORE INTO `Subtitle` VALUES ('Dune: Part Two', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Dune: Part Two', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Dune: Part Two', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Dune: Part Two', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Dune: Part Two', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Dune: Part Two', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Dune: Part Two', 'Korean');
+
+-- Spider-Man: Across the Spider-Verse
+INSERT IGNORE INTO `Subtitle` VALUES ('Spider-Man: Across the Spider-Verse', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Spider-Man: Across the Spider-Verse', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Spider-Man: Across the Spider-Verse', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Spider-Man: Across the Spider-Verse', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Spider-Man: Across the Spider-Verse', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Spider-Man: Across the Spider-Verse', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Spider-Man: Across the Spider-Verse', 'Korean');
+
+-- The Batman
+INSERT IGNORE INTO `Subtitle` VALUES ('The Batman', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Batman', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Batman', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Batman', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Batman', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Batman', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Batman', 'Korean');
+
+-- Top Gun: Maverick
+INSERT IGNORE INTO `Subtitle` VALUES ('Top Gun: Maverick', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Top Gun: Maverick', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Top Gun: Maverick', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Top Gun: Maverick', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Top Gun: Maverick', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Top Gun: Maverick', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Top Gun: Maverick', 'Korean');
+
+-- Avatar: The Way of Water
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Way of Water', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Way of Water', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Way of Water', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Way of Water', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Way of Water', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Way of Water', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Way of Water', 'Korean');
+
+-- Guardians of the Galaxy Vol. 3
+INSERT IGNORE INTO `Subtitle` VALUES ('Guardians of the Galaxy Vol. 3', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Guardians of the Galaxy Vol. 3', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Guardians of the Galaxy Vol. 3', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Guardians of the Galaxy Vol. 3', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Guardians of the Galaxy Vol. 3', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Guardians of the Galaxy Vol. 3', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Guardians of the Galaxy Vol. 3', 'Korean');
+
+-- Black Panther: Wakanda Forever
+INSERT IGNORE INTO `Subtitle` VALUES ('Black Panther: Wakanda Forever', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Black Panther: Wakanda Forever', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Black Panther: Wakanda Forever', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Black Panther: Wakanda Forever', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Black Panther: Wakanda Forever', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Black Panther: Wakanda Forever', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Black Panther: Wakanda Forever', 'Korean');
+
+-- Everything Everywhere All At Once
+INSERT IGNORE INTO `Subtitle` VALUES ('Everything Everywhere All At Once', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Everything Everywhere All At Once', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Everything Everywhere All At Once', 'Mandarin');
+INSERT IGNORE INTO `Subtitle` VALUES ('Everything Everywhere All At Once', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Everything Everywhere All At Once', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Everything Everywhere All At Once', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Everything Everywhere All At Once', 'Cantonese');
+
+-- The Whale
+INSERT IGNORE INTO `Subtitle` VALUES ('The Whale', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Whale', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Whale', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Whale', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Whale', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Whale', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Whale', 'Korean');
+
+-- John Wick: Chapter 4
+INSERT IGNORE INTO `Subtitle` VALUES ('John Wick: Chapter 4', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('John Wick: Chapter 4', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('John Wick: Chapter 4', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('John Wick: Chapter 4', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('John Wick: Chapter 4', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('John Wick: Chapter 4', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('John Wick: Chapter 4', 'Korean');
+
+-- Mission: Impossible - Dead Reckoning
+INSERT IGNORE INTO `Subtitle` VALUES ('Mission: Impossible - Dead Reckoning', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Mission: Impossible - Dead Reckoning', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Mission: Impossible - Dead Reckoning', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Mission: Impossible - Dead Reckoning', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Mission: Impossible - Dead Reckoning', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Mission: Impossible - Dead Reckoning', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Mission: Impossible - Dead Reckoning', 'Korean');
+
+-- Poor Things
+INSERT IGNORE INTO `Subtitle` VALUES ('Poor Things', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Poor Things', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Poor Things', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Poor Things', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Poor Things', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Poor Things', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Poor Things', 'Korean');
+
+-- Killers of the Flower Moon
+INSERT IGNORE INTO `Subtitle` VALUES ('Killers of the Flower Moon', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Killers of the Flower Moon', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Killers of the Flower Moon', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Killers of the Flower Moon', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Killers of the Flower Moon', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Killers of the Flower Moon', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Killers of the Flower Moon', 'Korean');
+
+-- Godzilla Minus One
+INSERT IGNORE INTO `Subtitle` VALUES ('Godzilla Minus One', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Godzilla Minus One', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Godzilla Minus One', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Godzilla Minus One', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Godzilla Minus One', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Godzilla Minus One', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Godzilla Minus One', 'Korean');
+
+-- Past Lives
+INSERT IGNORE INTO `Subtitle` VALUES ('Past Lives', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Past Lives', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Past Lives', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Past Lives', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Past Lives', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Past Lives', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Past Lives', 'Korean');
+
+-- Anatomy of a Fall
+INSERT IGNORE INTO `Subtitle` VALUES ('Anatomy of a Fall', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Anatomy of a Fall', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Anatomy of a Fall', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Anatomy of a Fall', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Anatomy of a Fall', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Anatomy of a Fall', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Anatomy of a Fall', 'Korean');
+
+-- The Zone of Interest
+INSERT IGNORE INTO `Subtitle` VALUES ('The Zone of Interest', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Zone of Interest', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Zone of Interest', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Zone of Interest', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Zone of Interest', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Zone of Interest', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('The Zone of Interest', 'Korean');
+
+-- Civil War
+INSERT IGNORE INTO `Subtitle` VALUES ('Civil War', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Civil War', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Civil War', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Civil War', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Civil War', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Civil War', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Civil War', 'Korean');
+
+-- Avatar: The Last Airbender
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Last Airbender', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Last Airbender', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Last Airbender', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Last Airbender', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Last Airbender', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Last Airbender', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Avatar: The Last Airbender', 'Korean');
+
+-- Breaking Bad
+INSERT IGNORE INTO `Subtitle` VALUES ('Breaking Bad', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Breaking Bad', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Breaking Bad', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Breaking Bad', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Breaking Bad', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Breaking Bad', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Breaking Bad', 'Korean');
+
+-- Stranger Things
+INSERT IGNORE INTO `Subtitle` VALUES ('Stranger Things', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Stranger Things', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Stranger Things', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Stranger Things', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Stranger Things', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Stranger Things', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Stranger Things', 'Korean');
+
+-- Interstellar
+INSERT IGNORE INTO `Subtitle` VALUES ('Interstellar', 'English');
+INSERT IGNORE INTO `Subtitle` VALUES ('Interstellar', 'Indonesia');
+INSERT IGNORE INTO `Subtitle` VALUES ('Interstellar', 'Spanish');
+INSERT IGNORE INTO `Subtitle` VALUES ('Interstellar', 'French');
+INSERT IGNORE INTO `Subtitle` VALUES ('Interstellar', 'German');
+INSERT IGNORE INTO `Subtitle` VALUES ('Interstellar', 'Japanese');
+INSERT IGNORE INTO `Subtitle` VALUES ('Interstellar', 'Korean');
+
+-- ============================================================
+-- AUDIO 
+-- ============================================================
+-- Oppenheimer
+INSERT IGNORE INTO `Audio` VALUES ('Oppenheimer', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Oppenheimer', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Oppenheimer', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Oppenheimer', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Oppenheimer', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Oppenheimer', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Oppenheimer', 'Korean');
+
+-- Barbie
+INSERT IGNORE INTO `Audio` VALUES ('Barbie', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Barbie', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Barbie', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Barbie', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Barbie', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Barbie', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Barbie', 'Korean');
+
+-- Dune: Part Two
+INSERT IGNORE INTO `Audio` VALUES ('Dune: Part Two', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Dune: Part Two', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Dune: Part Two', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Dune: Part Two', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Dune: Part Two', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Dune: Part Two', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Dune: Part Two', 'Korean');
+
+-- Spider-Man: Across the Spider-Verse
+INSERT IGNORE INTO `Audio` VALUES ('Spider-Man: Across the Spider-Verse', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Spider-Man: Across the Spider-Verse', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Spider-Man: Across the Spider-Verse', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Spider-Man: Across the Spider-Verse', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Spider-Man: Across the Spider-Verse', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Spider-Man: Across the Spider-Verse', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Spider-Man: Across the Spider-Verse', 'Korean');
+
+-- The Batman
+INSERT IGNORE INTO `Audio` VALUES ('The Batman', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('The Batman', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('The Batman', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('The Batman', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('The Batman', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('The Batman', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('The Batman', 'Korean');
+
+-- Top Gun: Maverick
+INSERT IGNORE INTO `Audio` VALUES ('Top Gun: Maverick', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Top Gun: Maverick', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Top Gun: Maverick', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Top Gun: Maverick', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Top Gun: Maverick', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Top Gun: Maverick', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Top Gun: Maverick', 'Korean');
+
+-- Avatar: The Way of Water
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Way of Water', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Way of Water', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Way of Water', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Way of Water', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Way of Water', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Way of Water', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Way of Water', 'Korean');
+
+-- Guardians of the Galaxy Vol. 3
+INSERT IGNORE INTO `Audio` VALUES ('Guardians of the Galaxy Vol. 3', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Guardians of the Galaxy Vol. 3', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Guardians of the Galaxy Vol. 3', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Guardians of the Galaxy Vol. 3', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Guardians of the Galaxy Vol. 3', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Guardians of the Galaxy Vol. 3', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Guardians of the Galaxy Vol. 3', 'Korean');
+
+-- Black Panther: Wakanda Forever
+INSERT IGNORE INTO `Audio` VALUES ('Black Panther: Wakanda Forever', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Black Panther: Wakanda Forever', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Black Panther: Wakanda Forever', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Black Panther: Wakanda Forever', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Black Panther: Wakanda Forever', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Black Panther: Wakanda Forever', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Black Panther: Wakanda Forever', 'Korean');
+
+-- Everything Everywhere All At Once
+INSERT IGNORE INTO `Audio` VALUES ('Everything Everywhere All At Once', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Everything Everywhere All At Once', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Everything Everywhere All At Once', 'Mandarin');
+INSERT IGNORE INTO `Audio` VALUES ('Everything Everywhere All At Once', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Everything Everywhere All At Once', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Everything Everywhere All At Once', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Everything Everywhere All At Once', 'Cantonese');
+
+-- The Whale
+INSERT IGNORE INTO `Audio` VALUES ('The Whale', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('The Whale', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('The Whale', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('The Whale', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('The Whale', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('The Whale', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('The Whale', 'Korean');
+
+-- John Wick: Chapter 4
+INSERT IGNORE INTO `Audio` VALUES ('John Wick: Chapter 4', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('John Wick: Chapter 4', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('John Wick: Chapter 4', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('John Wick: Chapter 4', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('John Wick: Chapter 4', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('John Wick: Chapter 4', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('John Wick: Chapter 4', 'Korean');
+
+-- Mission: Impossible - Dead Reckoning
+INSERT IGNORE INTO `Audio` VALUES ('Mission: Impossible - Dead Reckoning', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Mission: Impossible - Dead Reckoning', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Mission: Impossible - Dead Reckoning', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Mission: Impossible - Dead Reckoning', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Mission: Impossible - Dead Reckoning', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Mission: Impossible - Dead Reckoning', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Mission: Impossible - Dead Reckoning', 'Korean');
+
+-- Poor Things
+INSERT IGNORE INTO `Audio` VALUES ('Poor Things', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Poor Things', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Poor Things', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Poor Things', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Poor Things', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Poor Things', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Poor Things', 'Korean');
+
+-- Killers of the Flower Moon
+INSERT IGNORE INTO `Audio` VALUES ('Killers of the Flower Moon', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Killers of the Flower Moon', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Killers of the Flower Moon', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Killers of the Flower Moon', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Killers of the Flower Moon', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Killers of the Flower Moon', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Killers of the Flower Moon', 'Korean');
+
+-- Godzilla Minus One
+INSERT IGNORE INTO `Audio` VALUES ('Godzilla Minus One', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Godzilla Minus One', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Godzilla Minus One', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Godzilla Minus One', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Godzilla Minus One', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Godzilla Minus One', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Godzilla Minus One', 'Korean');
+
+-- Past Lives
+INSERT IGNORE INTO `Audio` VALUES ('Past Lives', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Past Lives', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Past Lives', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Past Lives', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Past Lives', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Past Lives', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Past Lives', 'Korean');
+
+-- Anatomy of a Fall
+INSERT IGNORE INTO `Audio` VALUES ('Anatomy of a Fall', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Anatomy of a Fall', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Anatomy of a Fall', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Anatomy of a Fall', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Anatomy of a Fall', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Anatomy of a Fall', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Anatomy of a Fall', 'Korean');
+
+-- The Zone of Interest
+INSERT IGNORE INTO `Audio` VALUES ('The Zone of Interest', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('The Zone of Interest', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('The Zone of Interest', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('The Zone of Interest', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('The Zone of Interest', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('The Zone of Interest', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('The Zone of Interest', 'Korean');
+
+-- Civil War
+INSERT IGNORE INTO `Audio` VALUES ('Civil War', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Civil War', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Civil War', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Civil War', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Civil War', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Civil War', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Civil War', 'Korean');
+
+-- Avatar: The Last Airbender
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Last Airbender', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Last Airbender', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Last Airbender', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Last Airbender', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Last Airbender', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Last Airbender', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Avatar: The Last Airbender', 'Korean');
+
+-- Breaking Bad
+INSERT IGNORE INTO `Audio` VALUES ('Breaking Bad', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Breaking Bad', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Breaking Bad', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Breaking Bad', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Breaking Bad', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Breaking Bad', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Breaking Bad', 'Korean');
+
+-- Stranger Things
+INSERT IGNORE INTO `Audio` VALUES ('Stranger Things', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Stranger Things', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Stranger Things', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Stranger Things', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Stranger Things', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Stranger Things', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Stranger Things', 'Korean');
+
+-- Interstellar (New)
+INSERT IGNORE INTO `Audio` VALUES ('Interstellar', 'English');
+INSERT IGNORE INTO `Audio` VALUES ('Interstellar', 'Indonesia');
+INSERT IGNORE INTO `Audio` VALUES ('Interstellar', 'Spanish');
+INSERT IGNORE INTO `Audio` VALUES ('Interstellar', 'French');
+INSERT IGNORE INTO `Audio` VALUES ('Interstellar', 'German');
+INSERT IGNORE INTO `Audio` VALUES ('Interstellar', 'Japanese');
+INSERT IGNORE INTO `Audio` VALUES ('Interstellar', 'Korean');
+
+-- ============================================================
+-- TRANSAKSI 
+-- ============================================================
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-01', 65000, 'Berhasil', 'user1@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-02', 120000, 'Berhasil', 'user2@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-03', 186000, 'Berhasil', 'user3@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-04', 65000, 'Berhasil', 'user4@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-05', 120000, 'Berhasil', 'user5@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-06', 186000, 'Berhasil', 'user6@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-07', 65000, 'Berhasil', 'user7@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-08', 120000, 'Berhasil', 'user8@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-09', 186000, 'Berhasil', 'user9@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-10', 65000, 'Berhasil', 'user10@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-11', 120000, 'Berhasil', 'user11@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-12', 186000, 'Berhasil', 'user12@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-13', 65000, 'Berhasil', 'user13@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-14', 120000, 'Berhasil', 'user14@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-15', 186000, 'Berhasil', 'user15@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-16', 65000, 'Berhasil', 'user16@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-17', 120000, 'Berhasil', 'user17@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-18', 186000, 'Berhasil', 'user18@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-19', 65000, 'Berhasil', 'user19@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-20', 120000, 'Berhasil', 'user20@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-21', 186000, 'Berhasil', 'user21@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-22', 65000, 'Berhasil', 'user22@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-23', 120000, 'Berhasil', 'user23@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-24', 186000, 'Berhasil', 'user24@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-25', 65000, 'Berhasil', 'user25@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-26', 120000, 'Berhasil', 'user26@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-27', 186000, 'Berhasil', 'user27@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-28', 65000, 'Berhasil', 'user28@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-29', 120000, 'Berhasil', 'user29@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-01-30', 186000, 'Berhasil', 'user30@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-01', 65000, 'Berhasil', 'user31@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-02', 120000, 'Berhasil', 'user32@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-03', 186000, 'Berhasil', 'user33@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-04', 65000, 'Berhasil', 'user34@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-05', 120000, 'Berhasil', 'user35@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-06', 186000, 'Berhasil', 'user36@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-07', 65000, 'Berhasil', 'user37@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-08', 120000, 'Berhasil', 'user38@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-09', 186000, 'Berhasil', 'user39@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-10', 65000, 'Berhasil', 'user40@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-11', 120000, 'Berhasil', 'user41@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-12', 186000, 'Berhasil', 'user42@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-13', 65000, 'Berhasil', 'user43@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-14', 120000, 'Berhasil', 'user44@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-15', 186000, 'Berhasil', 'user45@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-16', 65000, 'Berhasil', 'user46@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-17', 120000, 'Berhasil', 'user47@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-18', 186000, 'Berhasil', 'user48@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-19', 65000, 'Berhasil', 'user49@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-20', 120000, 'Berhasil', 'user50@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-21', 186000, 'Berhasil', 'user51@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-22', 65000, 'Berhasil', 'user52@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-23', 120000, 'Berhasil', 'user53@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-24', 186000, 'Berhasil', 'user54@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-25', 65000, 'Berhasil', 'user55@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-26', 120000, 'Berhasil', 'user56@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-27', 186000, 'Berhasil', 'user57@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-28', 65000, 'Berhasil', 'user58@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-02-29', 120000, 'Berhasil', 'user59@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-01', 186000, 'Berhasil', 'user60@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-02', 65000, 'Berhasil', 'user61@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-03', 120000, 'Berhasil', 'user62@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-04', 186000, 'Berhasil', 'user63@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-05', 65000, 'Berhasil', 'user64@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-06', 120000, 'Berhasil', 'user65@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-07', 186000, 'Berhasil', 'user66@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-08', 65000, 'Berhasil', 'user67@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-09', 120000, 'Berhasil', 'user68@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-10', 186000, 'Berhasil', 'user69@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-11', 65000, 'Berhasil', 'user70@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-12', 120000, 'Berhasil', 'user71@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-13', 186000, 'Berhasil', 'user72@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-14', 65000, 'Berhasil', 'user73@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-15', 120000, 'Berhasil', 'user74@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-16', 186000, 'Berhasil', 'user75@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-17', 65000, 'Berhasil', 'user76@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-18', 120000, 'Berhasil', 'user77@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-19', 186000, 'Berhasil', 'user78@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-20', 65000, 'Berhasil', 'user79@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-21', 120000, 'Berhasil', 'user80@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-22', 186000, 'Berhasil', 'user81@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-23', 65000, 'Berhasil', 'user82@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-24', 120000, 'Berhasil', 'user83@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-25', 186000, 'Berhasil', 'user84@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-26', 65000, 'Berhasil', 'user85@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-27', 120000, 'Berhasil', 'user86@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-28', 186000, 'Berhasil', 'user87@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-29', 65000, 'Berhasil', 'user88@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-03-30', 120000, 'Berhasil', 'user89@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-01', 186000, 'Berhasil', 'user90@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-02', 65000, 'Berhasil', 'user91@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-03', 120000, 'Berhasil', 'user92@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-04', 186000, 'Berhasil', 'user93@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-05', 65000, 'Berhasil', 'user94@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-06', 120000, 'Berhasil', 'user95@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-07', 186000, 'Berhasil', 'user96@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-08', 65000, 'Berhasil', 'user97@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-09', 120000, 'Berhasil', 'user98@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-10', 186000, 'Berhasil', 'user99@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-11', 65000, 'Berhasil', 'user100@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-12', 120000, 'Berhasil', 'user101@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-13', 186000, 'Berhasil', 'user102@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-14', 65000, 'Berhasil', 'user103@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-15', 120000, 'Berhasil', 'user104@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-16', 186000, 'Berhasil', 'user105@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-17', 65000, 'Berhasil', 'user106@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-18', 120000, 'Berhasil', 'user107@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-19', 186000, 'Berhasil', 'user108@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-20', 65000, 'Berhasil', 'user109@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-21', 120000, 'Berhasil', 'user110@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-22', 186000, 'Berhasil', 'user111@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-23', 65000, 'Berhasil', 'user112@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-24', 120000, 'Berhasil', 'user113@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-25', 186000, 'Berhasil', 'user114@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-26', 65000, 'Berhasil', 'user115@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-27', 120000, 'Berhasil', 'user116@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-28', 186000, 'Berhasil', 'user117@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-29', 65000, 'Berhasil', 'user118@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-04-30', 120000, 'Berhasil', 'user119@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-01', 186000, 'Berhasil', 'user120@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-02', 65000, 'Berhasil', 'user121@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-03', 120000, 'Berhasil', 'user122@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-04', 186000, 'Berhasil', 'user123@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-05', 65000, 'Berhasil', 'user124@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-06', 120000, 'Berhasil', 'user125@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-07', 186000, 'Berhasil', 'user126@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-08', 65000, 'Berhasil', 'user127@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-09', 120000, 'Berhasil', 'user128@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-10', 186000, 'Berhasil', 'user129@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-11', 65000, 'Berhasil', 'user130@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-12', 120000, 'Berhasil', 'user131@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-13', 186000, 'Berhasil', 'user132@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-14', 65000, 'Berhasil', 'user133@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-15', 120000, 'Berhasil', 'user134@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-16', 186000, 'Berhasil', 'user135@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-17', 65000, 'Berhasil', 'user136@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-18', 120000, 'Berhasil', 'user137@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-19', 186000, 'Berhasil', 'user138@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-20', 65000, 'Berhasil', 'user139@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-21', 120000, 'Berhasil', 'user140@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-22', 186000, 'Berhasil', 'user141@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-23', 65000, 'Berhasil', 'user142@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-24', 120000, 'Berhasil', 'user143@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-25', 186000, 'Berhasil', 'user144@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-26', 65000, 'Berhasil', 'user145@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-27', 120000, 'Berhasil', 'user146@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-28', 186000, 'Berhasil', 'user147@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-29', 65000, 'Berhasil', 'user148@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-30', 120000, 'Berhasil', 'user149@mail.com');
+INSERT IGNORE INTO `Transaksi` (`tanggal_pembayaran`, `biaya_tagihan`, `status`, `email_pelanggan`) VALUES ('2024-05-31', 186000, 'Berhasil', 'user150@mail.com');
+
 
 COMMIT;
 SET FOREIGN_KEY_CHECKS=1;
