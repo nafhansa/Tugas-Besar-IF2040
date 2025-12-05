@@ -58,6 +58,7 @@ CREATE TABLE IF NOT EXISTS `Konten` (
   `sinopsis` TEXT NOT NULL,           -- Penyesuaian dengan revisi tidak boleh NULL
   `tahun_rilis` YEAR NOT NULL,        -- Penyesuaian dengan revisi tidak boleh NULL
   `rating_usia` VARCHAR(10) NOT NULL, -- Penyesuaian dengan revisi tidak boleh NULL
+  `type` ENUM('Film','Serial_TV') NOT NULL DEFAULT 'Film',
   PRIMARY KEY (`judul`)
 );
 
